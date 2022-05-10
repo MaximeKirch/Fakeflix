@@ -13,7 +13,7 @@ function App() {
             <Nav />
             <Banner />
             <Row
-              title="Programmes originaux Netflix"
+              title="Programmes originaux Fakeflix"
               fetchurl={requests.fetchNetflixOriginals}
               isPoster={true}
             />
