@@ -26,6 +26,8 @@ function Banner() {
     fetchData()
   }, [])
 
+  console.log(movie)
+
   const truncateText = (string, n) => {
     return string?.length > n
       ? string.substr(0, n - 1) + '...'
